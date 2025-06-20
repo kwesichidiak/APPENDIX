@@ -1,0 +1,2 @@
+finds html breaking injections including whitespace attacks,/api/signup,"<img src=x onerror=""fetch('/steal?c='+document.cookie) "">#ddddd",::1,"xss,csrf",4,Medium
+finds html breaking injections including whitespace attacks,/api/login,"<img src=x onerror=""fetch('/steal?c='+document.cookie) "">#fdfff",::1,"xss,csrf",4,Medium

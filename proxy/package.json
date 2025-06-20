@@ -1,0 +1,28 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.17",
+    "@types/http-proxy": "^1.17.11",
+    "@types/http-string-parser": "^0.0.30",
+    "@types/node": "^20.4.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.2",
+    "http-proxy": "^1.18.1",
+    "http-string-parser": "^0.0.6",
+    "pino": "^8.14.1"
+  }
+}
